@@ -25,5 +25,5 @@ int main() {
     
     ShellExecute(NULL, "shutdown", "/r", NULL, NULL, SW_HIDE);
 
-    return 0; //returning to unhook memory or wont set #registarded
+    return 0; //returning 0 to unhook memory when exiting or wont set #registarded? or is my pc broken
 }
